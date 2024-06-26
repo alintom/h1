@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Pagina mia</title>
+
+
+	<style type="text/css">
+		#div{
+			background-color: green;
+			width: 700px;
+			height: 400px;
+			text-align: center;
+
+		}
+	</style>
+</head>
+<body>
+	<div id="div">This is a cool div</div>
+
+	<p>This is a cool <span style="color:red;">text</span></p>
+
+	<button onclick="myFunction()">Yoooo!!!</button>
+
+	<script type="text/javascript">
+		function myFunction(){
+			alert("Executati valtoarea rosie!!!");
+		}
+
+	</script>
+</body>
+</html>
