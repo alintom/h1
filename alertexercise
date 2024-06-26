@@ -2,31 +2,49 @@
 <html>
 <head>
 	
-	<title>Pagina mia</title>
 
+	<title>Ceveu</title>
 
 	<style type="text/css">
-		#div{
-			background-color: green;
-			width: 700px;
-			height: 400px;
-			text-align: center;
-
+		#img{
+			border-radius: 300px;
+			margin-top: 25px;
 		}
+		#b1{
+			margin-left: 45px;
+			margin-bottom: 25px;
+			color: blueviolet;
+		}
+
+
 	</style>
 </head>
 <body>
-	<div id="div">This is a cool div</div>
 
-	<p>This is a cool <span style="color:red;">text</span></p>
+	<h1>Alin Tomoiaga</h1>
+	<hr>
+	<img src="tt.jpg" height="200" width="200" id="img">
+	<br>
+	<h3>Businessman I Marketer I 3 Sucessful Exits</h3>
+	<button id="b1" onclick="myFunction()">Contact me!</button>
+	<br>
+	<a href="https://x.com/alint0m" target="_blank">Check out my Twitter and let s chat</a>
+	<br>
+	<ul>
+		<li>Owner of Xnovation.com</li>
+		<li>Previulsy sold 3 start-ups</li>
+		<li>Coding Enthusiast</li>
+	</ul>
 
-	<button onclick="myFunction()">Yoooo!!!</button>
 
-	<script type="text/javascript">
-		function myFunction(){
-			alert("Executati valtoarea rosie!!!");
-		}
 
-	</script>
+<script type="text/javascript">
+	function myFunction(){
+		alert("Well, technically, you cannot contact me...BYE")
+	}
+
+
+</script>
+
 </body>
 </html>
